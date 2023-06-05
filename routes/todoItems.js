@@ -19,6 +19,12 @@ router.post('/api/item', async (req, res) => {
     }
 })
 
+//ruta de prueba vercel
+
+router.get('/home', (req, res) => {
+    res.send('Home Funcionando')
+})
+
 //crear la segunda ruta -- obetener los items de la database
 
 
