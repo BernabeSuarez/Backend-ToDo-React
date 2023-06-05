@@ -1,3 +1,1 @@
-const app = require('../index.js')
-
-export default app
+const app = require('../index')
