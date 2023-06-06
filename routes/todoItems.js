@@ -13,7 +13,7 @@ router.post('/api/item', async (req, res) => {
         })
         //guardar item en la base de datos
         const saveItem = await newItem.save()
-        res.status(200).json('Item added successfully')
+        res.status(200).json(saveItem)
     } catch (error) {
         res.json(error)
     }
